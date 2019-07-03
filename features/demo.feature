@@ -14,6 +14,13 @@ Feature: I am going to validate calculator
         When I add two numbers "2" and "4"
         Then Output displayed should be "6"
 
+    @calculatortesting
+    Scenario: Validate add functionality3
+
+        Given I will navigate to 'calc' website
+        When I add two numbers "3" and "10"
+        Then Output displayed should be "13"
+
     @angulartesting
     Scenario Outline: Validate add angular website
 
